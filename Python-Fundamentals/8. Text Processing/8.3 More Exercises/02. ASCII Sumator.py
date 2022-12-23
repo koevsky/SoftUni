@@ -1,0 +1,5 @@
+char_1 = input()
+char_2 = input()
+str_line = input()
+res = sum([ord(x) for x in str_line if ord(char_1) < ord(x) < ord(char_2)])
+print(res)
